@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # Install command-line tools using Homebrew
 
 # Make sure we’re using the latest Homebrew
@@ -7,7 +6,6 @@ brew update
 
 # Upgrade any already-installed formulae
 brew upgrade
-
 
 # GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
@@ -76,6 +74,15 @@ brew install pidcat   # colored logcat guy
 brew install ncdu # find where your diskspace went
 
 brew install zsh
+
+#dev
+brew install docker
+brew install awscli
+brew install node
+brew install yarn
+brew install groovysdk
+brew install scala
+brew install fish
 
 # Remove outdated versions from the cellar
 brew cleanup

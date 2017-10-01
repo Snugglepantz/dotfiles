@@ -24,6 +24,17 @@ brew cask install sublime-text
 brew cask install imagealpha
 brew cask install imageoptim
 
+#tools
+brew cask install visual-studio-code
+brew cask install intellij-idea
+brew cask install webstorm
+
+#other
+brew cask install adobe-creative-cloud
+
+# more dev
+brew cask install java8
+
 # fun
 brew cask install limechat
 # brew cask install miro-video-converter
